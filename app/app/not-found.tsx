@@ -1,3 +1,4 @@
+"use client";
 import { ArrowLeft, Compass, Home, Search } from "lucide-react";
 
 export default function NotFoundPage() {
