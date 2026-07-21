@@ -40,38 +40,7 @@ type Provider = {
   image: string;
 };
 
-const categories: Category[] = [
-  {
-    name: "Plomería",
-    icon: Wrench,
-    search: "plomería",
-  },
-  {
-    name: "Electricidad",
-    icon: Lightbulb,
-    search: "electricidad",
-  },
-  {
-    name: "Limpieza",
-    icon: Sparkles,
-    search: "limpieza",
-  },
-  {
-    name: "Tutorías",
-    icon: BookOpen,
-    search: "tutorías",
-  },
-  {
-    name: "Reparaciones",
-    icon: House,
-    search: "reparaciones",
-  },
-  {
-    name: "Más",
-    icon: ChevronRight,
-    search: "",
-  },
-];
+<CategoryScroller />
 
 const recommendedProviders: Provider[] = [
   {
